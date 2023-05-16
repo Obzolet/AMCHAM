@@ -429,6 +429,7 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
 
     #nav > a{
         margin-right: 5px;
+        font-size: medium;
     }
 
     #textos-header h1{
