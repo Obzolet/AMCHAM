@@ -173,12 +173,10 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
 
 /* Galeria */
 
-
 #portafolio{
     background: #f2f2f2;
     padding: 60px 0;
     width: 100%;
-
 }
 
 #galeria-port{
@@ -188,14 +186,13 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
     flex-wrap: wrap;
     margin: auto;
 }
-
+ /* */
 .imagen-port{
     width: 24%;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    /* */
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
@@ -371,11 +368,31 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
         width:100%;
     }
     
-
     /* Galeria */
 
     #galeria-port {
     width: 70%;
+    }
+
+    .imagen-port {
+    pointer-events: none; /*quita el efecto del hover*/
+    }
+
+    .hover-galeria{
+        transform: scale(1);
+        background: none;
+        transition: none;
+    }
+
+    .hover-galeria img{
+        width: 0%;
+    }
+
+    .hover-galeria p{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 65%;
+        color: #000;
     }
 
     .imagen-port{
