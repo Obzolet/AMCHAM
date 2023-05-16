@@ -283,7 +283,6 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
 #servicio-cont{
     display:flex;
     width: 100%;
-    height: 400px;
     justify-content: space-between;
     align-items: center;
     padding: 5%;
@@ -292,6 +291,7 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
 
 .servicio-ind{
     width: 28%;
+    height: 300px;
     text-align: center;
 }
 
@@ -403,6 +403,7 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
     #servicio-cont{
         justify-content: center;
         flex-direction: column;
+        align-items: center;
         height: 100%;
     }
 
