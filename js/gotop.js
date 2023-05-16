@@ -2,9 +2,8 @@
 Codigo extraido de:
 https://ugbtuts.com/como-crear-un-boton-de-ir-arriba-con-html-css-y-javascript/
 */
-
 window.onscroll = function(){
-    console.log(document.documentElement.scrollTop);
+    //console.log(document.documentElement.scrollTop);
     if(document.documentElement.scrollTop > 100) {
       document.querySelector('.go-top-container').classList.add('show');
        
