@@ -231,7 +231,6 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
     color: #fff;
 }
 
-
 /* Clients */
 
 .cards{
@@ -288,7 +287,9 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
 
 .servicio-ind{
     width: 28%;
+    /*
     height: 300px;
+    */
     text-align: center;
 }
 
@@ -389,10 +390,11 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
     }
 
     .hover-galeria p{
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         padding-top: 65%;
-        color: #000;
+        font-weight: 900;
+        color: #5c5c5c;
     }
 
     .imagen-port{
@@ -421,7 +423,9 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        /* 
         height: 100%;
+        */
     }
 
     .servicio-ind{
@@ -471,6 +475,13 @@ ul{ /* Quita los puntos que por defecto da la clase ul */
     width: 80%;
     }
 
+    .hover-galeria p{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 65%;
+        font-weight: 600;
+        color: #5c5c5c;
+    }
 
     /* Clients */
 
